@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "redhat";
+    src: url(../fonts/static/RedHatText-Bold.ttf);
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: "redhat";
 }
 
 html{
@@ -19,7 +25,7 @@ body{
 }
 
 .container-principal{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .containers-group{
