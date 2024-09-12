@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/script/script.js"></script>
   <title>Frontend Mentor | Product list with cart</title>
   <style>
     .attribution {
@@ -23,61 +24,39 @@
 
   <main class="container-principal">
     <h1>Sobremesas</h1>
-    <div class="cards-containers">
-      <div class="card">
-        <div class="card-top">
-          <picture>
-            <img class="imagem-produto" src="assets/images/image-waffle-desktop.jpg" alt="Imagem de waffle">
-          </picture>
-          <button class="btn-add-produto">
-            <img src="assets/images/icon-add-to-cart.svg" alt="icon de adicionar o carrinho">
-            Adicionar ao carrinho
-          </button>
-        </div>
-        <div class="card-bottom">
-          <p class="categoria-produto">Waffle</p>
-          <p class="nome-produto">Waffle with Berries</p>
-          <p class="preco-produto">R$6.50</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-top">
-          <picture>
-            <img class="imagem-produto" src="assets/images/image-waffle-desktop.jpg" alt="Imagem de waffle">
-          </picture>
-          <button class="btn-add-produto">
-            <img src="assets/images/icon-add-to-cart.svg" alt="icon de adicionar o carrinho">
-            Adicionar ao carrinho
-          </button>
-        </div>
-        <div class="card-bottom">
-          <p class="categoria-produto">Waffle</p>
-          <p class="nome-produto">Waffle with Berries</p>
-          <p class="preco-produto">R$6.50</p>
+    <div class="containers-group">
+      <div class="cards-containers">
+        <div class="card">
+          <div class="card-top">
+            <picture>
+              <img class="imagem-produto" src="assets/images/image-waffle-desktop.jpg" alt="Imagem de waffle">
+            </picture>
+            <button class="btn-add-produto">
+              <img src="assets/images/icon-add-to-cart.svg" alt="icon de adicionar o carrinho">
+              Adicionar ao carrinho
+            </button>
+          </div>
+          <div class="card-bottom">
+            <p class="categoria-produto">Waffle</p>
+            <p class="nome-produto">Waffle with Berries</p>
+            <p class="preco-produto">R$6.50</p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-top">
-          <picture>
-            <img class="imagem-produto" src="assets/images/image-waffle-desktop.jpg" alt="Imagem de waffle">
-          </picture>
-          <button class="btn-add-produto">
-            <img src="assets/images/icon-add-to-cart.svg" alt="icon de adicionar o carrinho">
-            Adicionar ao carrinho
-          </button>
-        </div>
-        <div class="card-bottom">
-          <p class="categoria-produto">Waffle</p>
-          <p class="nome-produto">Waffle with Berries</p>
-          <p class="preco-produto">R$6.50</p>
+      <div class="container-carrinho">
+        <h2 class="titulo-carrinho">Seu carrinho(<span class="quantidade-produtos">0</span>)</h2>
+        <div class="carrinho">
+          <img class="image-carrinho-vazio" src="assets/images/illustration-empty-cart.svg" alt="Carro vazio">
+          <p class="paragrafo-carrinho">Os items que você adicionar aparecerão no carrinho</p>
         </div>
       </div>
     </div>
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </main>
+  
 </body>
 
 </html>
